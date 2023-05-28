@@ -1,0 +1,36 @@
+.dev {
+  border: 2px solid red;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr auto; /* Divide the container into two rows */
+  height: 100vh; /* Set the container height to fill the viewport */
+  border: 1px solid #ddd;
+}
+
+.chat {
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 10px;
+}
+
+.message {
+  background-color: lightgray;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  padding: 10px;
+}
+
+.input-container input {
+  flex-grow: 1; /* Make the input grow to fill the available space */
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 5px 10px;
+}
